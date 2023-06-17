@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Company Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!--font style-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="bg-green-500 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-white text-lg font-bold hover:text-black">BUILD-TOGETHER</a>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="text-white hover:text-black">Home</a></li>
+        <li><a href="#" class="text-white hover:text-black">About</a></li>
+        <li><a href="#" class="text-white hover:text-black">Services</a></li>
+        <li><a href="#" class="text-white hover:text-black">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold hover:text-green-500 hover:duration-300">Welcome to Our Company</h1>
+        <p class="mt-4">We provide innovative solutions for your business</p>
+        <a href="#" class="mt-8 inline-block bg-green-500 text-white py-2 px-6 rounded hover:bg-transparent hover: border border-green-500 hover:text-black duration-300">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-center">About Us</h2>
+      <div class="flex flex-col md:flex-row mt-8">
+        <div class="md:w-1/2">
+          <img src="https://seofiles.s3.amazonaws.com/seo/media/uploads/2018/06/26/company.jpg" alt="About Image" class="w-full">
+        </div>
+        <div class="md:w-1/2 md:ml-8">
+          <h3 class="text-xl font-bold">Our Mission</h3>
+          <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum purus vitae urna
+            imperdiet, id blandit urna pulvinar. Quisque nec eleifend neque. Sed commodo arcu sit amet ullamcorper
+            condimentum.</p>
+          <h3 class="text-xl font-bold mt-8">Why Choose Us?</h3>
+          <ul class="mt-4">
+            <li>Quality services</li>
+            <li>Experienced team</li>
+            <li>Customer satisfaction</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-center">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-bold">Service 1</h3>
+          <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet quam ac urna
+            pellentesque, a finibus nisl interdum.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-bold">Service 2</h3>
+          <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet quam ac urna
+            pellentesque, a finibus nisl interdum.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-bold">Service 3</h3>
+          <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet quam ac urna
+            pellentesque, a finibus nisl interdum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold text-center">Contact Us</h2>
+      <div class="flex flex-col md:flex-row mt-8">
+        <div class="md:w-1/2">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum purus vitae urna imperdiet, id
+            blandit urna pulvinar.</p>
+          <p class="mt-4">Phone: 132-991-453</p>
+          <p>Email: building.together@startup.com</p>
+        </div>
+        <div class="md:w-1/2 md:ml-8">
+          <form class="space-y-4">
+            <input type="text" placeholder="Name" class="w-full px-4 py-2 border border-gray-300 rounded">
+            <input type="email" placeholder="Email" class="w-full px-4 py-2 border border-gray-300 rounded">
+            <textarea placeholder="Message" rows="5"
+              class="w-full px-4 py-2 border border-gray-300 rounded"></textarea>
+            <button type="submit" class="bg-green-500 text-white py-2 px-6 rounded hover:bg-transparent hover: border border-green-500 hover:text-black duration-300">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-200 py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2023 Your Startup Company. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
